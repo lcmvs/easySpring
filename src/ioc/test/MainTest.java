@@ -15,8 +15,8 @@ public class MainTest {
         ApplicationContext applicationContext=new AnnotationApplicationContext("ioc");
         Hello hello = (Hello) applicationContext.getBean("Hello");
         hello.say();
-//        Dog dog=(Dog)applicationContext.getBean("Dog");
-//        dog.eat();
+        Dog dog=(Dog)applicationContext.getBean("Dog");
+        dog.eat();
     }
 
 }

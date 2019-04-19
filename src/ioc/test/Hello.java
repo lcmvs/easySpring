@@ -15,8 +15,7 @@ public class Hello {
     Dog dog;
 
     public void say(){
-        System.out.println("你好!");
-        dog.eat();
+        System.out.println("你好:"+dog.toString());
     }
 
 }
